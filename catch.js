@@ -1,4 +1,4 @@
-var buttonColours = ["red", "blue", "green", "yellow","grey"];
+var buttonColours = ["red", "blue", "green", "purple","grey"];
 
 var gamePattern = [];
 var userClickedPattern = [];
@@ -95,7 +95,7 @@ function bdclr(){
   $("#gameoverrr").addClass("gameover");
   setTimeout(function () {
     $("#gameoverrr").removeClass("gameover")
-  }, 2500);
+  }, 500);
 }
 
 
